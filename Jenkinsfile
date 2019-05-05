@@ -1,6 +1,6 @@
 node('master') {
     stage ( 'git checkout' ) {
-       git 'https://github.com/shekharshamra/jenkin.git' 
+       git 'https://github.com/vinodsamant/jenkin.git' 
     }
     
      stage ('maven') {
