@@ -1,5 +1,5 @@
 node('master') {
-    stage ( 'git checkout' ) {
+    stage ( 'SCM checkout' ) {
        git 'https://github.com/vinodsamant/jenkin.git' 
     }
     
